@@ -128,4 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-/mnt/32F265DDF265A5B7/computations/Anambra_Governorship_Election_2018_Tweets_Sentiment_Analysis/dataset/stream_Anambra.json
+stream_Anambra.json

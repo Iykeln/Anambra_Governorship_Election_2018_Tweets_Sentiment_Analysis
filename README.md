@@ -1,5 +1,5 @@
 # The Impact of Political Party/Candidate on the Election Results From A Sentiment Analysis Perspective Using #AnambraDecides2017 Tweets
-### This work investigates empirically the impact of political party control over its candidates or vice versa on winning an election using a natural language processing (NLP) technique called sentiment analysis (SA). This ```ruby repo```  presents the experimental resources we used.
+### This work investigates empirically the impact of political party control over its candidates or vice versa on winning an election using a natural language processing (NLP) technique called sentiment analysis (SA). This ```repo```  presents the experimental resources we used.
 
 ### For the paper, see [here](https://link.springer.com/article/10.1007/s13278-020-00667-2) or [here](https://www.researchgate.net/publication/342723934_The_impact_of_political_partycandidate_on_the_election_results_from_a_sentiment_analysis_perspective_using_AnambraDecides2017_tweets)
 

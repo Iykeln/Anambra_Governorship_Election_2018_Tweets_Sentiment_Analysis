@@ -1,5 +1,5 @@
 # The Impact of Political Party/Candidate on the Election Results From A Sentiment Analysis Perspective Using #AnambraDecides2017 Tweets
-This work investigates empirically the impact of political party control over its candidates or vice versa on winning an election using a natural language processing (NLP) technique called sentiment analysis (SA).
+### This work investigates empirically the impact of political party control over its candidates or vice versa on winning an election using a natural language processing (NLP) technique called sentiment analysis (SA).
 
 # Citation
 ```

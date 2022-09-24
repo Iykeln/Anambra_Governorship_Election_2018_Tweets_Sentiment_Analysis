@@ -30,27 +30,15 @@ This repo contains the Twitter dataset (#AnambraDecides2017 Tweets) and the Pyth
 ### Twitter Dataset 
 We use the Twitter Streaming API to download tweets related to 3 keywords: ```\#anambradecides2017, \#anambraelections and \#anambradecides``` on the day of the election. The objective of the real-time collection was to collect only tweets about the election published on the same day. We based on the hypothesis that if there is a tweet about Anambra State election that same day, then that tweet could be making a reference to what the user is experiencing at the moment about the election. The dataset can be found [here](https://raw.githubusercontent.com/Iykeln/Anambra_Governorship_Election_2018_Tweets_Sentiment_Analysis/main/dataset/filtered_attributes_stream_Anambra.csv)
 
-## Sample Codes and Results
-Exploratory data analysis for names of interest counts. We investigated how the political keyplayers (we are interested in) are mentioned given the collected tweets.
+Tweets gathered from public accounts were 33,502 in number. However, after pre-processing only 7430 tweets remained. Among the two sentiment analyzers we
+compared in this research, we found that SentiWordNet had the highest rate of tweets with positive sentiment, 2916 in number and 39.25% in percentage. While Textblob is highest in neutral sentiment rate of 3971, 53.45%, which can be viewed in the following table.
 
-```ruby
-names = ['willie_obiano','oseloka_obaze','nwoye_tony','godwin_ezeemo','osita_chidoka']
-tweets_by_name = [originals['willie_obiano'].value_counts()[True], 
-                  originals['oseloka_obaze'].value_counts()[True], 
-                  originals['nwoye_tony'].value_counts()[True], 
-                  originals['godwin_ezeemo'].value_counts()[True],
-                  originals['osita_chidoka'].value_counts()[True]]
-x_pos = list(range(len(names)))
-width = 0.8
-fig, ax = plt.subplots(figsize=(12, 8))
-plt.bar(x_pos, tweets_by_name, width, alpha=1, color='g')
-ax.set_ylabel('Number of tweets', fontsize=25, fontweight='bold')
-ax.set_title('Counts for names of interest', fontsize=25, fontweight='bold')
-ax.set_xticks([p + 0.0 * width for p in x_pos])
-ax.set_xticklabels(names,fontsize=17,fontweight='bold',rotation=20)
-ax.set_xlabel('Top 5 Candidates',fontsize=25)
-plt.grid()
-plt.savefig('./computed_images/tweet_by_name_1', format='png') #replace with your filepath
-```
-Here is a plot from the above code for political cadidates’ names of interest counts.
-![Alt text](https://github.com/Iykeln/Anambra_Governorship_Election_2018_Tweets_Sentiment_Analysis/blob/main/computed_images/tweet_by_name_1.png?raw=true "Title")
+## Sample Results
+The polarity sentiment frequency distributions (FD). This shows FD of all the tweets where the political candidates are mentioned.
+
+Multi plot of Positive and Negative Polarity of the political candidates.
+![Alt text](https://github.com/Iykeln/Anambra_Governorship_Election_2018_Tweets_Sentiment_Analysis/blob/main/computed_images/SA_candidates.png?raw=true "Title")
+
+Polarity scores for each political actors based on time scaled by a factor of 100. Time is ranged in two hourly granularity. This graph is used to reveal the attitude of the people towards the political actors in a given time.
+![Alt text](https://github.com/Iykeln/Anambra_Governorship_Election_2018_Tweets_Sentiment_Analysis/blob/main/computed_images/SA_timeseries.png?raw=true "Title")
+Python codes can be found [here](https://github.com/Iykeln/Anambra_Governorship_Election_2018_Tweets_Sentiment_Analysis/blob/main/anambra_2017_tweets_senti.ipynb).

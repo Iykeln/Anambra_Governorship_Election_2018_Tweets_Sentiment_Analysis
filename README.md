@@ -28,6 +28,6 @@ OR
 This repo contains the Twitter dataset (#AnambraDecides2017 Tweets) and the Python codes (notebook IDE).
 
 ### Twitter Dataset 
-We use the Twitter Streaming API to download tweets related to 3 keywords: “#anambradecides2017”, “#anambraelections” and “#anambradecides” on the day of the election. The objective of the real-time collection was to collect only tweets about the election published on the same day. We based on the hypothesis that if there is a tweet about Anambra State election that same day, then that tweet could be making a reference to what the user is experiencing at the moment about the election.
+We use the Twitter Streaming API to download tweets related to 3 keywords: ```\#anambradecides2017, \#anambraelections and \#anambradecides``` on the day of the election. The objective of the real-time collection was to collect only tweets about the election published on the same day. We based on the hypothesis that if there is a tweet about Anambra State election that same day, then that tweet could be making a reference to what the user is experiencing at the moment about the election. The dataset can be found [here](https://raw.githubusercontent.com/Iykeln/Anambra_Governorship_Election_2018_Tweets_Sentiment_Analysis/main/dataset/filtered_attributes_stream_Anambra.csv)
 
 

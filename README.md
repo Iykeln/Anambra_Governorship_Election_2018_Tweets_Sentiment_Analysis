@@ -19,7 +19,7 @@
 OR
 
 ```
-Onyenwe, I., Nwagbo, S., Mbeledogu, N. et al. The impact of political party/candidate on the election results from a sentiment analysis perspective using #AnambraDecides2017 tweets. Soc. Netw. Anal. Min. 10, 55 (2020). https://doi.org/10.1007/s13278-020-00667-2.
+\\Onyenwe, I., Nwagbo, S., Mbeledogu, N. et al. The impact of political party/candidate on the election results from a sentiment analysis perspective using \\#AnambraDecides2017 tweets. Soc. Netw. Anal. Min. 10, 55 (2020). https://doi.org/10.1007/s13278-020-00667-2.
 ```
 
 ## Repository Content

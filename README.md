@@ -53,4 +53,4 @@ plt.grid()
 plt.savefig('./computed_images/tweet_by_name_1', format='png') #replace with your filepath
 ```
 Here is a plot from the above code for political cadidates’ names of interest counts.
-![alt text](http://url/to/img.png)
+![Alt text](https://github.com/Iykeln/Anambra_Governorship_Election_2018_Tweets_Sentiment_Analysis/blob/main/computed_images/tweet_by_name_1.png?raw=true "Title")
